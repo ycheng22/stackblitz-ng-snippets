@@ -11,11 +11,14 @@
   <app-input-cal></app-input-cal>
   
   <div class="my-divider"></div>
+  <h1>Toggle with text</h1>
   <app-toggle-card 
     [(isToggled)]="isToggled"
     (isToggledChange)="handleToggleChange($event)"
     [(content)]="testText">
   </app-toggle-card>
 
+  <div class="my-divider"></div>
+  <app-textarea-demo></app-textarea-demo>
 
 </div>
