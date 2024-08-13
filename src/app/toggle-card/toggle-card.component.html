@@ -1,0 +1,22 @@
+<div class="flex flex-row gap-1 items-center">
+    <div>
+      <label class="my-switch">
+        <input 
+          type="checkbox" 
+          [value]="isToggled"
+          (change)="toggleSwitch()"
+          [checked]="isToggled"
+        >
+        <span class="my-slider" [ngClass]="isToggled ? 'set-color' : ''"></span>
+      </label>
+    </div>
+    <div class="my-switch-content" [ngClass]="{ 'my-switch-content-editing' : isToggled }">
+      <input
+        type="text"
+        maxlength="30"
+        [disabled]="false"
+        [value]="content"
+        (input)="onContentChange($event)"
+      >
+    </div>
+  </div>

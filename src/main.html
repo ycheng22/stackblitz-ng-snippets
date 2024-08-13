@@ -9,5 +9,13 @@
 
   <div class="my-divider"></div>
   <app-input-cal></app-input-cal>
+  
   <div class="my-divider"></div>
+  <app-toggle-card 
+    [(isToggled)]="isToggled"
+    (isToggledChange)="handleToggleChange($event)"
+    [(content)]="testText">
+  </app-toggle-card>
+
+
 </div>

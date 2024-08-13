@@ -3,6 +3,11 @@
 @tailwind utilities;
 // @import 'node_modules/@ng-select/ng-select/themes/default.theme.css';//this can't be imported in stackblitz, so add it to angular.json
 
+:root {
+  --blue-color: rgb(59 130 246);; //
+  --dark-blue-color: rgb(30 64 175);
+}
+
 html,
 body {
   width: 100%;
