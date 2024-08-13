@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { bootstrapApplication } from '@angular/platform-browser';
 import { MultiSelectComponent } from './multi-select/multi-select.component';
 import { NgSelectDemoComponent } from './ng-select-demo/ng-select-demo.component';
+import { InputCalComponent } from './input-cal/input-cal.component';
 import { MatDividerModule } from '@angular/material/divider';
 import { ReactiveFormsModule } from '@angular/forms';
 
@@ -14,6 +15,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     ReactiveFormsModule,
     MultiSelectComponent,
     NgSelectDemoComponent,
+    InputCalComponent,
   ],
   templateUrl: './main.html',
 })

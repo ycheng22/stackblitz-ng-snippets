@@ -18,10 +18,15 @@ h1 {
   @apply font-bold text-xl;
 }
 
-.mat-divider {
-  @apply my-2;
-  border-top-color: #ff5722;
-  // height: 1px;
-  // background-color: #ff5722; /* Your desired color */
-  // margin: 16px 0;
+// .mat-divider {
+//   @apply my-2;
+//   border-top-color: #ff5722;
+//   // height: 1px;
+//   // background-color: #ff5722; /* Your desired color */
+//   // margin: 16px 0;
+// }
+
+.my-divider {
+  @apply w-full border border-t border-slate-500 my-2 border-dashed;
+  height: 1px;
 }
