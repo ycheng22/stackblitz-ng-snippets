@@ -1,1 +1,21 @@
-<p>ag-grid-demo works!</p>
+<div>
+    <h1>AG Grid demo</h1>
+    <ng-container *ngIf="rowData" class="flex items-center justify-center ">
+        <ag-grid-angular
+        [class]="themeClass"
+        [rowData]="rowData"
+        [columnDefs]="colDefs"
+        [defaultColDef]="defaultColDef"
+        (cellValueChanged)="onCellValueChanged($event)"
+        [getRowStyle]="getRowStyle"
+        [tooltipShowDelay]="0"
+        [enableCellTextSelection]=true
+        (gridReady)="onGridReady($event)"
+        [suppressHorizontalScroll]="false"
+        [pagination]="true"
+        [paginationPageSize]="paginationPageSize"
+        [paginationPageSizeSelector]="paginationPageSizeSelector"
+      >
+      </ag-grid-angular>    
+    </ng-container>
+</div>

@@ -7,7 +7,7 @@ import { NgSelectDemoComponent } from './app/ng-select-demo/ng-select-demo.compo
 import { InputCalComponent } from './app/input-cal/input-cal.component';
 import { ToggleCardComponent } from './app/toggle-card/toggle-card.component';
 import { TextareaDemoComponent } from './app/textarea-demo/textarea-demo.component';
-
+import { AgGridDemoComponent } from './app/ag-grid-demo/ag-grid-demo.component';
 
 
 @Component({
@@ -22,7 +22,8 @@ import { TextareaDemoComponent } from './app/textarea-demo/textarea-demo.compone
     InputCalComponent,
     ToggleCardComponent,
     TextareaDemoComponent,
-    
+    AgGridDemoComponent,
+
   ],
   templateUrl: './main.html',
 })
