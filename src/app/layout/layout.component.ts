@@ -16,7 +16,7 @@ import { D3jsLayoutComponent } from '../d3js/d3js-layout/d3js-layout.component';
 })
 export class LayoutComponent {
 
-  showContentsArray = [true, false];
+  showContentsArray = [true, false];//[true, false], [false, true]
   private buttonMap: { [key: string]: number } = {
     angular: 0,
     d3js: 1
